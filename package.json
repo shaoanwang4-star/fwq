@@ -1,0 +1,14 @@
+{
+  "name": "htms-manga-site",
+  "version": "0.1.0",
+  "private": true,
+  "description": "零依赖漫画站：账号、上传与编辑、阅读页弹幕、版权保护",
+  "scripts": {
+    "start": "node --no-warnings=ExperimentalWarning server/index.js",
+    "test": "node --no-warnings=ExperimentalWarning test/e2e.js",
+    "seed": "node --no-warnings=ExperimentalWarning tools/seed.js"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  }
+}
